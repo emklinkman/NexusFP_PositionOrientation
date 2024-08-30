@@ -22,6 +22,6 @@ This project contains two scripts intended to process and manage force plate pos
 ## Getting Started
 
 ### Prerequisites
-    * Python: Ensure Python is installed on your machine to run 'Vicon_XML_write_v2.py'.
+    * Python: Ensure Python is installed on your machine to run 'Vicon_XML_write.py'.
 	* MATLAB: MATLAB is required to execute 'Force_Plate_Position_and_Orientation_Generic_v2.m'.
 	

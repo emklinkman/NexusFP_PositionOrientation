@@ -12,13 +12,20 @@ This project uses two scripts intended to process and manage force plate positio
 ## Files
 
 1. 'Force_Plate_Position_and_Orientation_Generic_v2.m'
-   * Provided by Vicon support engineers
+   * Provided by Vicon support engineers (Nev Pires, John Porter)
    * Pulls position and orientation of any specified force plate within the Vicon Nexus environment and writes these values to an Excel file.
    * NOT included in this repository
    
-2. 'Vicon_XML_write_v2.py'
-   * Written by NeuroLoco team
+2. 'Vicon_XML_write_v5.py'
+   * Written by NeuroLoco team (EK Klinkman)
    * Reads Excel file output data and writes a new .system XML file to be read into Nexus to automatically update force plate position and orientation.
+  
+3. 'Auto Label Stairs (EKK).System'
+   * Vicon Nexus .System configuration base file example
+
+4. 'Auto Label Stairs (EKK)_appended.System'
+   * Vicon Nexus .System configuration appended file example
+   * This is the result of running 'Force_Plate_Position_and_orientation_Generic_v2.m' and "Vicon_XML_write_v5.py'
    
 ## Getting Started
 

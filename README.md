@@ -7,13 +7,14 @@ Neurobionics Lab & Locomotor Control Systems Laboratories, Department of Robotic
 
 ## Overview
 
-This project contains two scripts intended to process and manage force plate position and orientation in Vicon Nexus using MATLAB and Python. This process automates an otherwise manual process of updating position/orientation. It was written for the NeuroLoco labs at the University of Michigan Robotics department, where we have an adjustable circuit with instrumented stairs. If the circuit platform height is changed, the stair position and orientation will no longer be accurate, thus we developed a system to update it automatically .
+This project uses two scripts intended to process and manage force plate position and orientation in Vicon Nexus using MATLAB and Python. This process automates an otherwise manual process of updating position/orientation. It was written for the NeuroLoco labs at the University of Michigan Robotics department, where we have an adjustable circuit with instrumented stairs. If the circuit platform height is changed, the stair position and orientation will no longer be accurate, thus we developed a system to update it automatically .
 
 ## Files
 
 1. 'Force_Plate_Position_and_Orientation_Generic_v2.m'
    * Provided by Vicon support engineers
-   * Pulls position and orientation of any specified force plate within the Vicon Nexus environment and writes these values to an Excel file. 
+   * Pulls position and orientation of any specified force plate within the Vicon Nexus environment and writes these values to an Excel file.
+   * NOT included in this repository
    
 2. 'Vicon_XML_write_v2.py'
    * Written by NeuroLoco team

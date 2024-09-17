@@ -1,7 +1,7 @@
 # Vicon Nexus Force Plate Position and Orientation
 EK Klinkman
 
-Neurobionics Lab & Locomotor Control Systems Laboratories, Department of Robotics, University of Michigan, 2024
+Neurobionics & Locomotor Control Systems Laboratories, Department of Robotics, University of Michigan, 2024
 
 (MATLAB script written by Nev Pires & John Porter, Vicon)
 

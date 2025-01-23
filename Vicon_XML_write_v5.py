@@ -20,6 +20,10 @@
 import openpyxl
 import xml.etree.ElementTree as ET
 from tkinter import Tk, filedialog
+import math
+import numpy as np
+
+PI_OVER_180 = 3.14159265359 / 180  # Global constant for degree to radian conversion
 
 # Function to prompt the user to select a file for opening
 def select_file(prompt):
@@ -119,7 +123,9 @@ def update_xml():
                         value = new_values[name]
                         # Convert degrees to radians for orientation parameters
                         if "StandardOrientation" in name:
-                            value = value * (3.14159265359 / 180)
+    
+                            value = np.mod((value * PI_OVER_180)+(math.pi/2),(math.pi))-(math.pi/2)
+                            # value = math.radians(value) 
                             print(f'{device_name} - {name}: {value} radians')
                         # Divide by 1000 for position parameters
                         elif "StandardPosition" in name:

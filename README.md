@@ -32,4 +32,5 @@ This project uses two scripts intended to process and manage force plate positio
 ### Prerequisites
     * Python: Ensure Python is installed on your machine to run 'Vicon_XML_write.py'.
 	* MATLAB: MATLAB is required to execute 'Force_Plate_Position_and_Orientation_Generic_v2.m'.
+ NOTE: you will need local admin permissions in order to be able to overwrite the Nexus .SYSTEM files
 	
